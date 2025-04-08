@@ -1,0 +1,11 @@
+---
+layout: post
+title: Mapping Census Data
+subtitle: Course work during Masters Program
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [books, test]
+---
+
+Masters project where I created custom regression models using goverment-provided census data and visualized it.
