@@ -6,9 +6,9 @@
 # --- Required options --- #
 
 # Name of website
-title: Kenaniah Dodson's Awesome Website for his Favorite Class PAF 514
+title: Kenaniah Dodson Portfolio
 # Short description of your site
-description: Project to practice static website development
+description: Overview of projects and experience
 
 # Your name to show in the footer
 author: Kenaniah Dodson
@@ -17,11 +17,14 @@ author: Kenaniah Dodson
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-    - Getting Started: "getstarted" 
-  Table Demo: "table-demo"
+  Experience: "resume"
+  Projects:
+    - Mapping Census Data: "mapping-census-data"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#    - Getting Started: "getstarted" 
+#  Table Demo: "table-demo"
 
 # --- Logo --- #
 
@@ -42,7 +45,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "kdodson6@asu.edu"
+  email: "kenaniahdodson@gmail.com"
 #  facebook: deanattali
   github: kenaniahdodson
 #  twitter: daattali
@@ -56,7 +59,7 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+  telephone: +19109229279
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -102,9 +105,9 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#72A0C1"
-navbar-text-col: "#DBD7D2"
-navbar-border-col: "#1F305E"
+navbar-col: "#90e0ef"
+navbar-text-col: "#1b263b"
+navbar-border-col: "#1b263b"
 page-col: "#FFFFFF"
 text-col: "#36454F"
 link-col: "#B284BE"
