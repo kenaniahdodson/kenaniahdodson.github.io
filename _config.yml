@@ -19,7 +19,7 @@ navbar-links:
   About Me: "aboutme"
   Experience: "resume"
   Projects:
-    - Mapping Census Data: "mapping-census-data"
+    - Mapping Census Data: "2025-03-25-mappingcensusdata"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
