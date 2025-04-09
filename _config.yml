@@ -17,9 +17,9 @@ author: Kenaniah Dodson
 
 navbar-links:
   About Me: "aboutme"
-  Experience: "resume.md"
+  Experience: "resume"
   Projects:
-    - Mapping Census Data: "2025-03-25-mappingcensusdata.md"
+    - Mapping Census Data: "mappingcensusdata"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
