@@ -1,0 +1,157 @@
+---
+title: "Kenaniah Dodson's Resume"
+author: Kenaniah Dodson
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+
+# First let's get the data, filtering to only the items tagged as
+# Resume items
+position_data <- read_csv('positions.csv') %>% 
+  filter(in_resume) %>% 
+  mutate(
+    # Build some custom sections by collapsing others
+    section = case_when(
+      section %in% c('research_positions', 'industry_positions') ~ 'positions', 
+      section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
+      TRUE ~ section
+    )
+  ) 
+
+```
+
+
+Aside
+================================================================================
+
+
+![logo](https://upload.wikimedia.org/wikipedia/commons/6/65/Asu_university_vert_rgb_maroongold_600.png){width=100%}
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+
+
+- <i class="fa fa-envelope"></i> kenaniahdodson@gmail.com
+# - <i class="fa fa-twitter"></i> NicholasStrayer
+- <i class="fa fa-github"></i> https://github.com/kenaniahdodson
+- <i class="fa fa-link"></i> [Website](kenaniahdodson.github.io/)
+- <i class="fa fa-phone"></i> (910) 922-9279
+- <i class="fa fa-link"></i> [LinkedIn](https://www.linkedin.com/in/kenaniah-dodson-16630a159/)
+
+
+Language Skills {#skills}
+--------------------------------------------------------------------------------
+
+
+```{r}
+skills <- tribble(
+  ~skill,               ~level,
+  "R",                  5,
+  "HTML",               3,
+  "CSS",                3,
+  "SQL",                2
+)
+build_skill_bars(skills)
+```
+
+
+
+Open Source Contributions {#open-source}
+--------------------------------------------------------------------------------
+
+All projects available at `kenaniahdodson.github.io/`
+
+
+- `Community Social Vulnerability`: A project analyzing government projects' effects on social vulnerability
+- `State Census Regression Analysis`: Analysis and report on custom regression models and variables in various state tracts
+- `Capstone`: TBD
+
+
+More info {#more-info}
+--------------------------------------------------------------------------------
+
+See full CV at https://kenaniahdodson.github.io/resume/ for more complete list of positions and publications.
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
+
+Source code: [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+
+Last updated on `r Sys.Date()`.
+
+
+
+
+Main
+================================================================================
+
+Kenaniah Dodson {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+intro_text <- "Data-driven professional with hands-on experience in statistical analysis, program evaluation, and performance optimization. Proficient in R, Excel, and data visualization tools to uncover trends and support strategic decisions. Background in business law and public policy, with a strong foundation in research design, stakeholder communication, and applied data analytics. Seeking to contribute to evidence-based decision-making in a data analyst role.
+"
+
+
+cat(sanitize_links(intro_text))
+```
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
+```
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('positions')
+```
+
+
+Projects {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('projects')
+```
+
+
+Policy and Analytic Skills {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('skills')
+```
+
