@@ -9,3 +9,8 @@ My name is Kenaniah Dodson. I am from Raleigh, NC, though I have lived all over 
 - Running
 - Coffee (who doesn't?)
 - Every genre of music except country (sorry!)
+- Hockey (go Canes!)
+
+![My wife and I](us.jpg)
+![Our fur baby](us_pug.jpg)
+![Hurricanes Game](canes.jpg)
