@@ -17,4 +17,4 @@ This dashboard showcases the amount of vehicle collisions compared to:
 
 The dashboard allows the user to select any time span, as well as any variables, to compare the results.
 
-![Dashboard Screenshot](/assets/img/dashboard-screenshot.png)
+![Dashboard Screenshot](/assets/img/dashboard-screnshot.png)
