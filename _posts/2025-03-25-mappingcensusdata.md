@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: NMTC & LIHTC Programs and Community Social Vulnerability
 subtitle: A Master's project using data from the U.S. Census Bureau to discover if social vulnerability variables relate to funds provided to various government programs
+cover-img: /assets/img/svi-flags.png
 ---
 
 [**View the full project report here**](https://watts-college.github.io/project-paf-515-2025s-team-04/)
