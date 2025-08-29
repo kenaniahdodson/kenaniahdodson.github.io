@@ -23,6 +23,7 @@ navbar-links:
     - Tempe Vehicle Collision Dashboard: "traffic-dashboard"
     - Baseball Wins Compared to Salaries: "Baseball_Wins_to_Salaries"
     - Movie Scores Wrangling Project: "Movie_Scores_Wrangled"
+    - Collision Data Wrangling and Cleaning" "Collision_Wrangled"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
