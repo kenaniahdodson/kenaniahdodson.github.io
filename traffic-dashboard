@@ -6,7 +6,7 @@ subtitle: A dashboard showing the amount of vehicle collisions and various varia
 
 ## Overview
 
-[**View the full project report here**](https://watts-college.github.io/project-paf-515-2025s-team-04/)
+[**View the dashboard here**](https://kenaniahdodson.shinyapps.io/final/)
 
 This dashboard showcases the amount of vehicle collisions compared to:
 
@@ -18,5 +18,3 @@ This dashboard showcases the amount of vehicle collisions compared to:
 The dashboard allows the user to select any time span, as well as any variables, to compare the results.
 
 ![Dashboard Screenshot](/assets/img/dashboard-screenshot.png)
-
-[**View the dashboard here**](https://kenaniahdodson.shinyapps.io/final/)
