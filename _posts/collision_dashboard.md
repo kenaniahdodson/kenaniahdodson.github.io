@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title: Tempe Arizona Vehicle Collision Dashboard
 subtitle: A dashboard showing the amount of vehicle collisions and various variables that impact collisions
+cover-img: /assets/img/dashboard-screnshot.png
 ---
 
 [**View the dashboard here**](https://kenaniahdodson.shinyapps.io/final/)
