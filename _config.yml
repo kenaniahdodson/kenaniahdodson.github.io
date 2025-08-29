@@ -20,6 +20,7 @@ navbar-links:
   Experience: "KenaniahDodsonResume"
   Projects:
     - Community Social Vulnerability: "Community_Social_Vulnerability"
+    - Tempe Vehicle Collision Dashboard: "traffic-dashboard"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
