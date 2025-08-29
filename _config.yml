@@ -22,6 +22,7 @@ navbar-links:
     - Community Social Vulnerability: "Community_Social_Vulnerability"
     - Tempe Vehicle Collision Dashboard: "traffic-dashboard"
     - Baseball Wins Compared to Salaries: "Baseball_Wins_to_Salaries"
+    - Movie Scores Wrangling Project: "Movie_Scores_Wrangled"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
